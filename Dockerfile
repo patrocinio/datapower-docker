@@ -1,4 +1,4 @@
 FROM ibmcom/datapower
-ADD config/auto-startup.cfg /drouter/config/auto-startup.cfg
+ADD src/config/auto-startup.cfg /drouter/config/auto-startup.cfg
 
 

@@ -1,1 +1,2 @@
-docker build -t patrocinio/datapower .
+. ./datapower-docker.cfg
+docker build -t $IMAGE .

@@ -3,7 +3,6 @@ services:
   datapower:
     ports:
      - 9090:9090
-     - 8888:80
     image: patrocinio/datapower
     environment:
      - DATAPOWER_ACCEPT_LICENSE=true

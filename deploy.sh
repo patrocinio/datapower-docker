@@ -1,3 +1,3 @@
 docker-compose up -d
-docker-compose scale datapower=2
+docker-compose scale datapower=1
 
