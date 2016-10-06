@@ -3,8 +3,7 @@ services:
   datapower:
     ports:
      - 9090:9090
-#   image: ${DOCKER_IMAGE}
-    image: patrocinio/datapower
+    image: ${DATAPOWER_IMAGE}
     environment:
      - DATAPOWER_ACCEPT_LICENSE=true
      - DATAPOWER_INTERACTIVE=true

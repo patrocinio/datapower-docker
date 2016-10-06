@@ -1,2 +1,2 @@
 . ./datapower-docker.cfg
-docker build -t $DOCKER_IMAGE .
+docker build -t $DATAPOWER_IMAGE .

@@ -1,5 +1,5 @@
 . ./datapower-docker.cfg
-echo Using image: $DOCKER_IMAGE
+echo Using image: $DATAPOWER_IMAGE
 docker-compose up -d
 sleep 20
 URL=`docker ps | grep datapower | awk '{print $10}' | cut -d'-' -f1`
